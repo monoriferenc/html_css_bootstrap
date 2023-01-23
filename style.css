@@ -1,11 +1,13 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     color: ;
 }
-header{
+
+header {
     background-image: url('images/bg1.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -13,10 +15,35 @@ header{
     background-attachment: fixed;
     height: 250px;
 }
-header h1{
+
+header h1 {
     font-family: 'Times New Roman', Times, serif;
     text-shadow: 5px 5px 5px black;
     color: azure;
     padding-top: 100px;
     letter-spacing: 3px;
+}
+
+.row {
+    height: 450px;
+}
+
+.col {}
+
+.feher {
+    background-color: white;
+}
+
+.szurke {
+    background-color: #808080;
+    top: 15%;
+}
+
+.bal-kep {
+    width: 50%;
+}
+
+.jobb-kep {
+    width: 300px;
+    position: relative;
 }
