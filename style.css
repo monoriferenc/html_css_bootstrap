@@ -4,7 +4,6 @@
 }
 
 body {
-    color: ;
 }
 
 header {
@@ -16,7 +15,7 @@ header {
     height: 250px;
 }
 
-header h1 {
+h1 {
     font-family: 'Times New Roman', Times, serif;
     text-shadow: 5px 5px 5px black;
     color: azure;
@@ -24,8 +23,15 @@ header h1 {
     letter-spacing: 3px;
 }
 
+#masodik{
+    background-image: url('images/bg2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 275px;   
+}
 .row {
-    height: 450px;
 }
 
 .col {}
@@ -36,14 +42,14 @@ header h1 {
 
 .szurke {
     background-color: #808080;
-    top: 15%;
 }
 
 .bal-kep {
     width: 50%;
+    margin-top: 20%;
 }
 
 .jobb-kep {
     width: 300px;
-    position: relative;
+    padding-bottom: 20%;
 }
